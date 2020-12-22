@@ -9,22 +9,13 @@ namespace Study_mlML.ConsoleApp
     {
         static void Main(string[] args)
         {
-            // Create single instance of sample data from first line of dataset for model input
-            ModelInput sampleData = new ModelInput()
-            {
-                SentimentText = @"==RUDE== Dude, you are rude upload that carl picture back, or else.",
-                LoggedIn = @"TRUE",
-            };
+            //Add input data
+            var input = new ModelInput();
+            input.SentimentText = "That is rude.";
 
-            // Make a single prediction on the sample data and print results
-            var predictionResult = ConsumeModel.Predict(sampleData);
-
-            Console.WriteLine("Using model to make single prediction -- Comparing actual Sentiment with predicted Sentiment from sample data...\n\n");
-            Console.WriteLine($"SentimentText: {sampleData.SentimentText}");
-            Console.WriteLine($"LoggedIn: {sampleData.LoggedIn}");
-            Console.WriteLine($"\n\nPredicted Sentiment value {predictionResult.Prediction} \nPredicted Sentiment scores: [{String.Join(",", predictionResult.Score)}]\n\n");
-            Console.WriteLine("=============== End of process, hit any key to finish ===============");
-            Console.ReadKey();
+            //Load model and predict output of sample data
+            ModelOutput result = ConsumeModel.Predict(input);
+            Console.WriteLine($"Text: {input.SentimentText}\nIs Toxic: {result.Prediction}");
         }
     }
 }

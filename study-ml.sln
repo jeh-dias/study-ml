@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "study-ml", "study-ml\study-ml.csproj", "{550916AD-868A-4F2A-9F78-5DD8432E74B3}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "study-mlML.Model", "study-mlML.Model\study-mlML.Model.csproj", "{CFE2BB60-C1EC-4FC2-A2D4-E80E671D33C5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "study-mlML.ConsoleApp", "study-mlML.ConsoleApp\study-mlML.ConsoleApp.csproj", "{741DDB8A-2B0F-41CA-A8A1-39ADAD37F765}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MlnetApi", "MlnetApi\MlnetApi.csproj", "{705B870D-B6AE-4AD6-B101-FB56230ACB29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{550916AD-868A-4F2A-9F78-5DD8432E74B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{550916AD-868A-4F2A-9F78-5DD8432E74B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{550916AD-868A-4F2A-9F78-5DD8432E74B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{550916AD-868A-4F2A-9F78-5DD8432E74B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CFE2BB60-C1EC-4FC2-A2D4-E80E671D33C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFE2BB60-C1EC-4FC2-A2D4-E80E671D33C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFE2BB60-C1EC-4FC2-A2D4-E80E671D33C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFE2BB60-C1EC-4FC2-A2D4-E80E671D33C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{741DDB8A-2B0F-41CA-A8A1-39ADAD37F765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{741DDB8A-2B0F-41CA-A8A1-39ADAD37F765}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{741DDB8A-2B0F-41CA-A8A1-39ADAD37F765}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{741DDB8A-2B0F-41CA-A8A1-39ADAD37F765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705B870D-B6AE-4AD6-B101-FB56230ACB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705B870D-B6AE-4AD6-B101-FB56230ACB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705B870D-B6AE-4AD6-B101-FB56230ACB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705B870D-B6AE-4AD6-B101-FB56230ACB29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
